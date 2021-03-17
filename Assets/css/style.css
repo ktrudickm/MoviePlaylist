@@ -1,12 +1,10 @@
 * {
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header {
-    font-size: 75px;
-   background-color: rgba(139, 0, 0, 0.349);
-   border-radius: 15%;
-   text-shadow: 2px 2px 4px #000000
+    font-size: 70px;
+    text-shadow: 2px 2px 4px #6e6767
 }
 
 .navbar {
@@ -17,14 +15,19 @@
 header {
     position: relative;
     display: inline-flex;
+    height: 20%;
 }
 
 h1 {
-    font-family: 'Fascinate', cursive;
+    font-family: 'Bebas Neue', cursive;
 }
 
 header h2 {
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header img {
+    width:100%;
 }
 
 .text {
@@ -32,15 +35,15 @@ header h2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color:darkred;
-    opacity: 60%;
+    background-color:rgb(236, 161, 161, 0.6);
     border-radius: 10px;
     padding: 10px;
 }
 
 div h2{
-    color:white;
-    
+    color: rgb(255, 235, 238);
+    opacity: 95%;
+    padding: 12px;
 }
 
 #results {
